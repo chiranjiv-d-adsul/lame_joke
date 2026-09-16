@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>LAME. — Terrible Jokes</title>
+
   <meta
     name="description"
     content="The internet's collection of intentionally terrible jokes."
@@ -17,13 +18,22 @@
 
   <header class="navbar">
     <div class="logo">🤡 LAME.</div>
-    <div class="tagline">100% terrible. 0% apology.</div>
+
+    <div class="tagline">
+      100% terrible. 0% apology.
+    </div>
   </header>
+
 
   <main>
 
+    <!-- HERO -->
+
     <section class="hero">
-      <div class="badge">WELCOME TO THE BAD JOKE ZONE</div>
+
+      <div class="badge">
+        WELCOME TO THE BAD JOKE ZONE
+      </div>
 
       <h1>
         MAKE IT<br />
@@ -34,13 +44,20 @@
         Carefully engineered jokes that will make you laugh,
         sigh, or question your life choices.
       </p>
+
     </section>
 
 
-    <!-- Joke Card -->
+    <!-- JOKE -->
+
     <section class="joke-card">
 
-      <div class="emoji" id="jokeEmoji">🐘</div>
+      <div
+        class="emoji"
+        id="jokeEmoji"
+      >
+        🐘
+      </div>
 
       <h2 id="jokeQuestion">
         Hathi cheethi?
@@ -50,19 +67,31 @@
         Hathi: "Nahi, main toh elephant hoon." 💀
       </p>
 
+
+      <!-- LAMENESS METER -->
+
       <div class="meter">
 
         <div class="meter-header">
-          <span>LAMENESS METER</span>
-          <strong id="jokeScore">97%</strong>
+
+          <span>
+            LAMENESS METER
+          </span>
+
+          <strong id="jokeScore">
+            97%
+          </strong>
+
         </div>
 
+
         <div class="meter-background">
+
           <div
             class="meter-fill"
             id="meterFill"
-            style="width: 97%"
           ></div>
+
         </div>
 
       </div>
@@ -70,28 +99,44 @@
     </section>
 
 
-    <!-- Buttons -->
+    <!-- ACTION BUTTONS -->
+
     <div class="actions">
 
-      <button id="anotherBtn" class="primary">
+      <button
+        id="anotherBtn"
+        class="primary"
+      >
         🔄 Give Me Another
       </button>
 
-      <button id="copyBtn" class="secondary">
+
+      <button
+        id="copyBtn"
+        class="secondary"
+      >
         📋 Copy Joke
       </button>
 
-      <button id="terribleBtn" class="secondary">
+
+      <button
+        id="terribleBtn"
+        class="secondary"
+      >
         😭 That Was Terrible
       </button>
 
     </div>
 
 
-    <!-- Categories -->
+    <!-- CATEGORIES -->
+
     <section class="categories">
 
-      <h2>Choose your poison.</h2>
+      <h2>
+        Choose your poison.
+      </h2>
+
 
       <div class="chips">
 
@@ -102,12 +147,14 @@
           🎲 Random
         </button>
 
+
         <button
           class="chip"
           data-category="Desi"
         >
           🇮🇳 Desi
         </button>
+
 
         <button
           class="chip"
@@ -116,12 +163,14 @@
           🐒 Animals
         </button>
 
+
         <button
           class="chip"
           data-category="Dad"
         >
           👨 Dad Jokes
         </button>
+
 
         <button
           class="chip"
@@ -130,11 +179,28 @@
           💻 Coding
         </button>
 
+
         <button
           class="chip"
           data-category="College"
         >
           🎓 College
+        </button>
+
+
+        <button
+          class="chip"
+          data-category="Vijay"
+        >
+          🎬 Thalapathy
+        </button>
+
+
+        <button
+          class="chip"
+          data-category="Cricket"
+        >
+          🏏 Cricket
         </button>
 
       </div>
@@ -149,7 +215,6 @@
   </footer>
 
 
-  <!-- Toast -->
   <div
     id="toast"
     class="toast"
