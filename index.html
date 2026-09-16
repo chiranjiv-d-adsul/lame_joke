@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>LAME. — Terrible Jokes</title>
+  <meta
+    name="description"
+    content="The internet's collection of intentionally terrible jokes."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="logo">🤡 LAME.</div>
+    <div class="tagline">100% terrible. 0% apology.</div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="badge">WELCOME TO THE BAD JOKE ZONE</div>
+
+      <h1>
+        MAKE IT<br />
+        <span>LAME.</span>
+      </h1>
+
+      <p>
+        Carefully engineered jokes that will make you laugh,
+        sigh, or question your life choices.
+      </p>
+    </section>
+
+
+    <!-- Joke Card -->
+    <section class="joke-card">
+
+      <div class="emoji" id="jokeEmoji">🐘</div>
+
+      <h2 id="jokeQuestion">
+        Hathi cheethi?
+      </h2>
+
+      <p id="jokeAnswer">
+        Hathi: "Nahi, main toh elephant hoon." 💀
+      </p>
+
+      <div class="meter">
+
+        <div class="meter-header">
+          <span>LAMENESS METER</span>
+          <strong id="jokeScore">97%</strong>
+        </div>
+
+        <div class="meter-background">
+          <div
+            class="meter-fill"
+            id="meterFill"
+            style="width: 97%"
+          ></div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Buttons -->
+    <div class="actions">
+
+      <button id="anotherBtn" class="primary">
+        🔄 Give Me Another
+      </button>
+
+      <button id="copyBtn" class="secondary">
+        📋 Copy Joke
+      </button>
+
+      <button id="terribleBtn" class="secondary">
+        😭 That Was Terrible
+      </button>
+
+    </div>
+
+
+    <!-- Categories -->
+    <section class="categories">
+
+      <h2>Choose your poison.</h2>
+
+      <div class="chips">
+
+        <button
+          class="chip active"
+          data-category="All"
+        >
+          🎲 Random
+        </button>
+
+        <button
+          class="chip"
+          data-category="Desi"
+        >
+          🇮🇳 Desi
+        </button>
+
+        <button
+          class="chip"
+          data-category="Animals"
+        >
+          🐒 Animals
+        </button>
+
+        <button
+          class="chip"
+          data-category="Dad"
+        >
+          👨 Dad Jokes
+        </button>
+
+        <button
+          class="chip"
+          data-category="Coding"
+        >
+          💻 Coding
+        </button>
+
+        <button
+          class="chip"
+          data-category="College"
+        >
+          🎓 College
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    Made with zero comedy skills. ❤️
+  </footer>
+
+
+  <!-- Toast -->
+  <div
+    id="toast"
+    class="toast"
+  ></div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
